@@ -4,7 +4,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-file_path = "C:\\Users\\Anu\\Documents\\SEM_04\\ML\\PROJECT\\Legality prediction\\English_Abstractive_Embeddings_Fasttext.xlsx"
+file_path = "C:\\Users\\mahad\\OneDrive\\Desktop\\SEM 4 Courses\\ML\\Legality\\Datasets\\English_Abstractive_Embeddings_Fasttext.xlsx"
 data = pd.read_excel(file_path)
 
 # Assuming 'X' contains your feature vectors and 'y' contains your class labels
